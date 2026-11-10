@@ -49,7 +49,7 @@ class FireFlower extends Character {
 }
 
 class SuperStar extends Character {
-    getPowerUp() {
+    getBintang() {
         this.currentForm = "mario"
         this.invincible = true;
         // return `${this.currentForm} kebal terhadap serangan`;
@@ -66,4 +66,4 @@ const Skill = new FireFlower()
 console.log(Skill.getBunga());
 
 const Skill2 = new SuperStar()
-Skill2.getPowerUp();
+Skill2.getBintang();
